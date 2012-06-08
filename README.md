@@ -12,7 +12,7 @@ How to build an run this project
 
 This project consists several projects distributed in two parts:
 
-  1) bundles: all projects here produce deployable OSGi-bundles
+	1) bundles: all projects here produce deployable OSGi-bundles
 	
 	2) DemoApplicationXX: classical web-projects which are consuming OSGi-services 
 		provided by the bundles above.
