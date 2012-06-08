@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: MyHelloServiceConsumingBundle
+Bundle-SymbolicName: de.mas.study.osgi.myHelloServiceConsumingBundle
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: de.mas.myhelloserviceconsumingbundle.SimpleConsumerActivator
+Import-Package: de.mas.service,
+ org.osgi.framework;version="1.3.0",
+ org.osgi.util.tracker
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ClassPath: lib/MyHelloServiceInterface.jar,
+ .

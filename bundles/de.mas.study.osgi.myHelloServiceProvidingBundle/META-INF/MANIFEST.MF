@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: MyHelloServiceProvider
+Bundle-SymbolicName: de.mas.study.osgi.myHelloServiceProvidingBundle
+Bundle-Version: 1.0.0
+Bundle-Activator: de.mas.myhelloserviceprovider.MyHelloServiceProviderActivator
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: OSGi/Minimum-1.2
+Import-Package: de.mas.service,
+ org.osgi.framework;version="1.3.0"
+Bundle-ClassPath: .
