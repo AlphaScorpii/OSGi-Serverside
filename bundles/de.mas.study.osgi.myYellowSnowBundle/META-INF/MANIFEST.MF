@@ -5,5 +5,4 @@ Bundle-SymbolicName: de.mas.study.osgi.myYellowSnowBundle
 Bundle-Version: 1.0.0.qualifier
 Bundle-Activator: de.mas.myyellowsnowbundle.YellingActivator
 Import-Package: org.osgi.framework;version="1.3.0"
-Bundle-RequiredExecutionEnvironment: JavaSE-1.6,
- OSGi/Minimum-1.2
+Bundle-RequiredExecutionEnvironment: OSGi/Minimum-1.2
