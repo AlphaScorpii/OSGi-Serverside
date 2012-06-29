@@ -13,7 +13,7 @@ This project consists several projects distributed in two parts:
 
 	1) Project documentation
 
-	2) bundles: all projects here produce deployable OSGi-bundles
+	2) bundles: all projects here produce OSGi-bundles which can be deployed to jboss
 	
 	3) DemoApplicationXX: classical web-projects which are consuming OSGi-services 
 		provided by the bundles above.
