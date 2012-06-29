@@ -1,7 +1,7 @@
 What you need to run this project
 ---------------------------------
 
-- Eclipse for RCP-Developers to create the OSGi-bundles (no additional equinox-plattform necessary)
+- Eclipse for RCP-Developers to create the OSGi-bundles (no additional equinox-platform necessary)
 - Eclipse for JEE-Developers with JBoss-tools and GIT-plugin to run the web project which uses the OSGi-bundles above
 - JBoss AS 7.1.1 
 
