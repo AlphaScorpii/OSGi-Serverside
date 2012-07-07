@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="OsgiDemo_EAR">
+        <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
+        <dependent-module archiveName="OSGiDemo_WEB.war" deploy-path="/" handle="module:/resource/OSGiDemo_WEB/OSGiDemo_WEB">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="OSGiDemo_EJB.jar" deploy-path="/" handle="module:/resource/OSGiDemo_EJB/OSGiDemo_EJB">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="OSGiDemo_EJBClient.jar" deploy-path="/" handle="module:/resource/OSGiDemo_EJBClient/OSGiDemo_EJBClient">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="org.osgi.enterprise-4.2.0.jar" deploy-path="lib" handle="module:/classpath/lib/EarContent/lib/org.osgi.enterprise-4.2.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="org.osgi.core-4.2.0.jar" deploy-path="lib" handle="module:/classpath/lib/EarContent/lib/org.osgi.core-4.2.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="MyHelloServiceInterface.jar" deploy-path="lib" handle="module:/classpath/lib/EarContent/lib/MyHelloServiceInterface.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="de.mas.study.osgi.myHelloServiceInterface_1.0.0.201205271743.jar" deploy-path="lib" handle="module:/classpath/lib/EarContent/lib/de.mas.study.osgi.myHelloServiceInterface_1.0.0.201205271743.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="de.mas.study.osgi.myHelloServiceInterface_1.0.0.jar" deploy-path="lib" handle="module:/classpath/lib/EarContent/lib/de.mas.study.osgi.myHelloServiceInterface_1.0.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>

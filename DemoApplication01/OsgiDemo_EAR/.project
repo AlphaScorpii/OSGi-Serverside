@@ -27,7 +27,7 @@
 		<link>
 			<name>EarContent/lib/de.mas.study.osgi.myHelloServiceInterface_1.0.0.jar</name>
 			<type>1</type>
-			<location>D:/development/java/jee/server/jboss-as-7.1.1.Final/standalone/deployments/plugins/de.mas.study.osgi.myHelloServiceInterface_1.0.0.jar</location>
+			<location>E:/development/server/jboss-as-7.1.1.Final/standalone/deployments/de.mas.study.osgi.myHelloServiceInterface_1.0.0.jar</location>
 		</link>
 	</linkedResources>
 </projectDescription>
