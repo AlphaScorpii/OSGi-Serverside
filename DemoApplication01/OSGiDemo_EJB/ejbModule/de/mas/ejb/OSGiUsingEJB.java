@@ -38,6 +38,17 @@ public class OSGiUsingEJB implements OSGiUsingEJBLocal {
     public String sayHi() {
 		return "Hi. I'm here.";
 	}
+
+    public String repetitiveCallOSGiService() {
+    	while (true) {
+    		callOSGiService();
+    		try {
+				Thread.sleep(1000);
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
+    	}
+    }
     
     public String callOSGiService() {
     	if (myCustomizer.myHelloServiceAvailable()) {

@@ -9,4 +9,6 @@ public interface OSGiUsingEJBLocal {
 	
 	public String callOSGiService();
 	
+	public String repetitiveCallOSGiService();
+	
 }
